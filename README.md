@@ -1,3 +1,5 @@
+
+
 # MGPBD: A Multigrid Accelerated Global XPBD Solver
 
 
@@ -148,7 +150,7 @@ For C++ end, I recommond to use `python c++ debugger`， which is a VSCode exten
 
 ## Pylance report Invalid TypeForm
 
-It is becuase the pylance does not support the `taichi` data types, which is not a big trouble but just annoying. Adding the following code to your `./vscode/settings.json` to stop the warning.
+It is becuase the pylance does not support the `taichi` data types, which is not a big trouble but just annoying. Adding the following code to your `.vscode/settings.json` to stop the warning.
 ```
 "python.analysis.diagnosticSeverityOverrides": {
         "reportInvalidTypeForm": false
